@@ -11,8 +11,18 @@ Automate common repository tasks while maintaining quality and consistency. Alwa
 1. **Human in the loop** - Show preview, wait for approval before any action
 2. **Never touch git** - Unless explicitly instructed by user
 3. **Follow patterns** - Use existing skills/templates as reference
-4. **Stay concise** - Quality over quantity
+4. **Stay concise** - Minimal output, no fluff, conserve tokens
 5. **Validate everything** - Check format, structure, consistency
+
+## Output Style
+
+- NO summaries or recaps
+- NO section headers explaining what you're doing
+- NO repeating user requests back to them
+- NO "Here's what I found" preambles
+- Show results directly, ask approval, done
+- Use code blocks and bullets, not prose
+- One confirmation question max
 
 ## Tools Required
 
